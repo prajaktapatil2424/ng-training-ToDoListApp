@@ -1,0 +1,55 @@
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .modal h2 {
+    margin-bottom: 15px;
+  }
+  
+  .modal form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal form input, .modal form select, .modal form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #5a6268;
+  }
+  

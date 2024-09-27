@@ -1,0 +1,189 @@
+/* Container */
+.task-list-container {
+  margin: 20px auto;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.task-list-header h1 {
+  font-size: 18px;
+  color: #333;
+}
+
+.task-list-header button {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.task-list-header button:hover {
+  background-color: #e0a800;
+}
+
+.task-list-header input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 200px;
+  outline: none;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Action Buttons */
+.actions {
+  position: relative;
+  display: inline-block;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  color: #0056b3;
+}
+
+.actions .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.actions:hover .dropdown-content {
+  display: block;
+}
+
+.actions .dropdown-content a {
+  color: #333;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.actions .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: #e2e6ea;
+}
+
+.pagination span {
+  margin-left: 10px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.modal h2 {
+  margin-bottom: 15px;
+}
+
+.modal form input, .modal form select, .modal form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  margin-left: 10px;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
